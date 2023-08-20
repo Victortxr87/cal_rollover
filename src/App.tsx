@@ -51,11 +51,16 @@ function App() {
         />
       </div>
 
-      {/* Renderiza o resultado da soma, se disponível */}
       {sum !== null && (
-        <p className="result">
-          A soma de todas as apostas de casino é de: <span className="highlight">R$ {(sum / 100).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>
-        </p>
+  <div>
+    <p className="result">
+    A soma de todas as apostas de casino é de: <span className="highlight result-text">R$ {(sum / 100).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>
+    </p>
+    <div className="additional-block">
+      <p>Este valor representa o montante total das apostas realizadas desde a última data registrada na planilha inserida</p>
+    </div>
+  </div>
+        
       )}
     </div>
   );

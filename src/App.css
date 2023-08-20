@@ -1,7 +1,7 @@
 /* App.css */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
@@ -24,6 +24,7 @@ body {
 h1 {
   font-size: 24px;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .file-input-wrapper {
@@ -35,7 +36,7 @@ h1 {
 
 .file-input-label {
   display: block;
-  background-color: #ff7c02;
+  background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;
@@ -57,7 +58,14 @@ h1 {
   margin-top: 20px;
 }
 
-.highlight {
-  color: #ff7c02; /* Cor azul para destaque */
+.result-text {
+  color: #ff6347; /* Substitua pela cor desejada */
   font-weight: bold;
+}
+
+.additional-block {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
 }
