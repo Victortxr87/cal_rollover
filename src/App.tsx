@@ -37,10 +37,10 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Calculadora de rollover</h1>
+      <h1>Calculadora de Soma de Apostas</h1>
       <div className="file-input-wrapper">
         <label className="file-input-label" htmlFor="fileInput">
-          Escolha um arquivo
+          Selecione o Excel ou CSV.
         </label>
         <input
           type="file"
@@ -56,12 +56,12 @@ function App() {
     <p className="result">
     A soma de todas as apostas de casino é de: <span className="highlight result-text">R$ {(sum / 100).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>
     </p>
-    <div className="additional-block">
-      <p>Este valor representa o montante total das apostas realizadas desde a última data registrada na planilha inserida</p>
-    </div>
   </div>
-        
       )}
+
+<div className="additional-block">
+      <p>Ao baixar a planilha do Atlas, por favor, assegure-se de que está selecionando o período desejado, para que o cálculo seja realizado de forma precisa</p>
+    </div>
     </div>
   );
 }
