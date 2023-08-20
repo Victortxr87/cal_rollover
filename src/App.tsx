@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Calculadora de Planilha</h1>
+      <h1>Calculadora de rollover</h1>
       <div className="file-input-wrapper">
         <label className="file-input-label" htmlFor="fileInput">
           Escolha um arquivo
