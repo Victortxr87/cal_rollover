@@ -40,7 +40,7 @@ function App() {
       <h1>Calculadora de Soma de Apostas</h1>
       <div className="file-input-wrapper">
         <label className="file-input-label" htmlFor="fileInput">
-          Selecione o Excel ou CSV.
+          Selecione o Excel ou CSV
         </label>
         <input
           type="file"
@@ -51,6 +51,8 @@ function App() {
         />
       </div>
 
+       
+
       {sum !== null && (
   <div>
     <p className="result">
@@ -60,7 +62,7 @@ function App() {
       )}
 
 <div className="additional-block">
-      <p>Ao baixar a planilha do Atlas, por favor, assegure-se de que está selecionando o período desejado, para que o cálculo seja realizado de forma precisa</p>
+      <p>Ao baixar a planilha do Atlas, por favor, assegure-se de que está selecionando o período desejado, para que o cálculo seja realizado de forma precisa.</p>
     </div>
     </div>
   );
