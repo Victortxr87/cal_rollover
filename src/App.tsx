@@ -54,7 +54,7 @@ function App() {
       {/* Renderiza o resultado da soma, se disponível */}
       {sum !== null && (
         <p className="result">
-          A soma da coluna "bet" é R$ <span className="highlight">R${(sum / 100).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>
+          A soma da coluna "bet" é: <span className="highlight">R$ {(sum / 100).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</span>
         </p>
       )}
     </div>
